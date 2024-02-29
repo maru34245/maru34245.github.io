@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo{
+    width: 250px;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 3%;
+    background-image: url(images/loginbg.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header{
+    padding-top: 10px;
+    display: flex;
+    position: fixed;
+    padding-left: 6%;
+    background-color: rgba(249, 255, 249, .2);
+    backdrop-filter: blur(20px);
+    border-bottom: 2px solid rgba(255, 255, 255, .4);
+    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
+    gap: 60%;
+    top: 0%;
+    width: 100%;
+    height: 70px;
+    z-index: 9999;
+    transition-duration: 0.5s;
+}
+
+header ul{
+    padding-top: 10px;
+}
+
+header ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+header ul li a{
+    text-decoration: none;
+    align-items: center;
+    color: #31332f;
+    font-weight: bold;
+    font-size: 20px;
+    transition-duration: 0.3s;
+}
+
+.loginbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 40%;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 3px solid rgb(246, 255, 249);
+    border-radius: 20px;
+}
+
+.loginbox h1{
+    text-align: center;
+    margin-top: 8px;
+    color: #1EB684;
+}
+
+.loginbox form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txtfield{
+    position: relative;
+    margin: 10% 0;
+}
+
+.txtfield input{
+    width: 100%;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 20px;
+    border-top-left-radius: 2px;
+    border: 2px solid #b3d8c3;
+    text-align: center;
+    outline: none;
+    transition-duration: 0.3s;
+}
+
+.txtfield input:hover{
+    font-size: 20px;
+    border-top-left-radius: 20px;
+    border: 2px solid #73ce9c;
+}
+
+.txtfield input:focus{
+    font-size: 17px;
+    border-top-left-radius: 20px;
+    border: none;
+    border: 2px solid #1EB684;
+}
+
+.loginsubmitbtn{
+    width: 70%;
+    height: 40px;
+    border: none;
+    background-image: linear-gradient(45deg, #2DE5A8, #0C7F59);
+    font-size: 20px;
+    color: white;
+    margin-left: 16%;
+    font-weight: bold;
+    border-radius: 20px;
+    border-top-left-radius: 2px;
+    transition-duration: 0.3s;
+}
+
+.loginsubmitbtn:hover{
+    background-image: linear-gradient(45deg, #aeffd9, #06e1a0);
+    width: 75%;
+    color: rgb(36, 38, 34);
+    margin-left: 13%;
+    border-top-left-radius: 20px;
+}
+
+header ul li a:hover{
+    font-size: 22px;
+    color: #0C7F59;
+}
