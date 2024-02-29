@@ -3,7 +3,7 @@ var pulsantello2 = document.getElementById("pulsantello2");
 var informazioni = document.getElementById("informazioni");
 
 function changeNavBarBg(){
-    if(window.outerWidth > 480){
+    if(window.outerWidth > 400){
 
     
         var navbar = document.getElementById('navbar');
