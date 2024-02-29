@@ -22,7 +22,6 @@ html{
 }
 
 section{
-    width: 100%;
     height: 100vh;
     scroll-snap-align: start;
 }
@@ -35,7 +34,7 @@ section{
     width: 100%;
     min-height: 100vh;
     padding-top: 3%;
-    background-image: url(images/background\ image.png);
+
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -44,7 +43,8 @@ section{
 .hero2{
     width: 100%;
     min-height: 100vh;
-    background-image: url(images/background\ image.png);
+
+    
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -99,9 +99,6 @@ header ul li a{
     transition-duration: 0.3s;
 }
 
-.content{
-    padding-left: 10%;
-}
 
 .content h1{
     font-size: 40px;
@@ -416,7 +413,7 @@ header ul li a:hover{
     }
 
     .image img{
-        height: 50%;
+        height: 55%;
         width: 100%;
         left: -55px;
     }
@@ -426,9 +423,6 @@ header ul li a:hover{
         width: 100%;
     }
 
-    .videopage{
-        width: 100%;
-    }
 
     .information{
         font-size: 10px;
@@ -444,7 +438,7 @@ header ul li a:hover{
 
     .infobar{
         width: 100%;
-        
+        position: absolute;
 
     }
 
@@ -499,7 +493,7 @@ header ul li a:hover{
     .prototype{
         left: 25%;
         height: 200px;
-        width: 50%;
+        width: 200px;
         
     }
 
