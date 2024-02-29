@@ -22,6 +22,7 @@ html{
 }
 
 section{
+    width: 100%;
     height: 100vh;
     scroll-snap-align: start;
 }
@@ -415,8 +416,8 @@ header ul li a:hover{
     }
 
     .image img{
-        height: 55%;
-        width: 120%;
+        height: 50%;
+        width: 100%;
         left: -55px;
     }
 
@@ -425,6 +426,9 @@ header ul li a:hover{
         width: 120%;
     }
 
+    .videopage{
+        width: 100%;
+    }
 
     .information{
         font-size: 10px;
@@ -440,7 +444,7 @@ header ul li a:hover{
 
     .infobar{
         width: 100%;
-        position: absolute;
+        
 
     }
 
@@ -495,7 +499,7 @@ header ul li a:hover{
     .prototype{
         left: 25%;
         height: 200px;
-        width: 200px;
+        width: 50%;
         
     }
 
