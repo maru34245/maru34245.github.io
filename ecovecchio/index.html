@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+    <title>CashTrash</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="main page">
+            <div class = "hero">
+                <header id="navbar">
+                    <div class="Logo">
+                        <img src="images/Logo TrashCash.png" class="logo">
+                    </div>
+                    <div class="menu" id="menu">
+                        <ul>                            
+                            <li><a href="#" onclick="verificaChisiamo()"  id="chisiamonoi">Chi siamo</a></li>
+                            <li><a href="#" onclick="infoscroll()" id="informazioni">Informazioni</a></li>
+                            
+                            <li><a id="pulsantePagina2" href="loginpage.html"><button class="loginbtn">Login</button></a></li>
+                        </ul>
+                    </div>
+                </header>
+                <div class="content">
+                    <h1>Una ricompensa<br>per il bene<br>che fai.</h1>
+                    <button class="visualprod" href="#" id="pulsantello">Visualizza prodotto</button>
+                </div>
+                <div class="image">
+                    <img src="images/side image 2.png">
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <div class = "hero2">
+                <div class="content2">
+                        <img class="prototype" src="images/prototype.png">
+                        <div class="text2">
+                            <h1>Il nostro prodotto: TradeBin</h1>
+                            <p>TradeBin è un cestino in legno che unisce design elegante e funzionalità avanzate. 
+                                Dotato di sensori ad ultrasuoni e un servomotore integrato, offre un modo innovativo 
+                                per rilevare e conteggiare i rifiuti inseriti, erogando ricompense dopo il corretto smaltimento 
+                                di un certo numero di rifiuti. Con la sua combinazione di estetica e tecnologia, 
+                                TradeBin è un'opzione ideale per promuovere comportamenti eco-sostenibili in vari ambienti.</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="videopage">
+            <div class="text3">
+                <h1>Dai un occhiata a questo video!</h1>
+                <p>Abbiamo preparato un piccolo video per dimostrarti il nostro impegno verso
+                l'ambiente, e per metterti al corrente sul nostro progetto e sulla
+                sua realizzazione. Dai un occhiata!
+                </p>
+            </div>
+            <div class="ytvideo">
+                <iframe width="560" height="400"
+                src="https://www.youtube.com/embed/jL_gCGTVkYk?si=_n0HY1x6ePyfWpRy"
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+        <section class="information">
+            <div class="hero">
+                <p class="infobar">
+                    <div class="web">
+                        <a class="infoTitle">Web Developer</a>
+                        <a>
+                        <br>Alberto D'addetta
+                        <br>Marwan Belli
+                        </a>
+                    </div>
+                    <div class="graphic">
+                        <a class="infoTitle">Graphic Designer</a>
+                        <a>
+                        <br>Daniele Vinelli
+                        <br>Alberto D'addetta
+                        </a>
+                    </div>
+                    <div class="photographer">
+                        <a class="infoTitle">Video Maker</a>
+                        <a>
+                        <br>Francesco Longo
+                        <br>Emanuele Steduto
+                        <br>Francesco Ippolito
+                        <br>Beatrice Patrone<br>
+                        </a>
+                    </div>
+                    <div class="highrank">
+                        <a class="infoTitle">Project Manager<br></a>
+                            <a>Giuseppe Ziccardi</a>
+                        <br>
+                        <a class="infoTitle">Facilitator<br></a>
+                            <a>Nicola Savino</a>
+                    </div>
+                    <div class="tech">
+                        <a class="infoTitle">Technical Developer<br></a>
+                            <a>Francesco Mangiacotti
+                            <br>Giovanni Luca Ciavarella
+                            </a>
+                    </div>
+                    <form class="infosoc" onsubmit="return verificalogin()">
+                        <p class="email">cashtrash.pcto@gmail.com</p>
+                        <input type="text" placeholder="Mandaci una mail">
+                        <button class="emailbtn">Invia</button>
+                        <p class="rights">CashTrash® All rights reserved</p>
+                    </form>
+                </p>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
